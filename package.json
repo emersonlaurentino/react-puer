@@ -1,6 +1,6 @@
 {
   "name": "react-puer",
-  "description": "Tiny 300b function to create Render Props.",
+  "description": "A small function to create Render Props.",
   "version": "1.0.0",
   "module": "dist/react-puer.es.js",
   "main": "dist/react-puer.js",
