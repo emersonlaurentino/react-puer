@@ -1,0 +1,26 @@
+{
+  "dist/react-puer.umd.js": {
+    "bundled": 556,
+    "minified": 607,
+    "gzipped": 353
+  },
+  "dist/react-puer.js": {
+    "bundled": 485,
+    "minified": 485,
+    "gzipped": 312
+  },
+  "dist/react-puer.es.js": {
+    "bundled": 472,
+    "minified": 472,
+    "gzipped": 304,
+    "treeshaked": {
+      "rollup": {
+        "code": 0,
+        "import_statements": 0
+      },
+      "webpack": {
+        "code": 951
+      }
+    }
+  }
+}

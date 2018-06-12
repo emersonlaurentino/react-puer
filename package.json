@@ -1,0 +1,42 @@
+{
+  "name": "react-puer",
+  "description": "Tiny 300b function to create Render Props.",
+  "version": "0.0.0",
+  "module": "dist/react-puer.es.js",
+  "main": "dist/react-puer.js",
+  "umd:main": "dist/react-puer.umd.js",
+  "author": "Emerson Laurentino <emersonlaurentino@hotmail.com> (http://elaurent.org)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "mocha --require reify/node"
+  },
+  "homepage": "http://github.com/emersonlaurentino/react-puer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emersonlaurentino/react-puer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emersonlaurentino/react-puer/issues"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "react-children",
+    "react-render",
+    "render-props"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "reify": "^0.16.2",
+    "rollup": "^0.60.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-size-snapshot": "^0.5.1",
+    "rollup-plugin-uglify": "^4.0.0",
+    "uglify-es": "^3.3.9"
+  }
+}
