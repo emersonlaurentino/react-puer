@@ -33,8 +33,6 @@ npm i react-puer
 
 ## Examples
 
-#### Render
-
 ```jsx
 import puer from "react-puer";
 
@@ -44,28 +42,22 @@ const Component = props => {
   return puer({ children, render }, prop);
 };
 
+// render
 <Component
   name="Emerson"
   lastName="Laurentino"
   render={({ name, lastName }) => `Hi, i'm ${name} ${lastName} :)`}
 />
-```
 
-#### Children
-
-```jsx
-import puer from "react-puer";
-
-const Component = props => {
-  const { children, render, ...prop } = props;
-
-  return puer({ children, render }, prop);
-};
-
+// children
 <Component name="Emerson" lastName="Laurentino">
   {({ name, lastName }) => `Hi, i'm ${name} ${lastName} :)`}
 </Component>
 ```
+
+## Credit
+
+Thanks [@renatorib_](https://twitter.com/renatorib_) for write renderProps on [React Powerplug](https://github.com/renatorib/react-powerplug).
 
 ## License
 
