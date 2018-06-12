@@ -28,10 +28,9 @@ npm i react-puer
 
 ```
 <script src="https://unpkg.com/react-puer/dist/react-puer.umd.js"></script>
-
 ```
 
-## Examples
+## Example
 
 ```jsx
 import puer from "react-puer";
